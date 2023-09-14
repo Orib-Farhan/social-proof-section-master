@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=League+Spartan:wght@500;700&family=Montserrat:wght@600&family=Poppins:ital,wght@1,700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "League Spartan";
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.svg-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.svg-top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.head-first {
+    width: 40%;
+    min-height: 50%;
+    padding-left: 10%;
+    padding-top: 50px;
+
+}
+
+.main-text {
+    color: hsl(300, 43%, 22%);
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.detail-text {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.customer-section {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-top: 5%;
+
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 20%;
+    height: 40%;
+    min-height: 180px;
+    min-width: 140px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.75%;
+    margin-left: 1.75%;
+}
+
+.id-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 6%;
+    padding-left: 8%;
+}
+
+.id-name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.t-white {
+    color: white;
+    font-size: medium;
+}
+
+.t-pink {
+    color: hsl(333, 80%, 67%);
+    font-size: 0.7rem;
+}
+.review {
+    font-size: 0.9rem;
+    margin: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.second-section {
+
+
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    align-items: center;
+}
+
+.star-sec {
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f2f8;
+    height: 45px;
+    align-items: center;
+    max-width: 370px;
+    width: 80%;
+    min-width: 280px;
+    border-radius: 4px;
+    margin-bottom: 4%; 
+}
+
+.second {
+    margin-left: 5%;
+}
+
+.third {
+    margin-left: 10%;
+
+}
+
+.star {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.star-text {
+    padding-left: 15px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+
+    
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
